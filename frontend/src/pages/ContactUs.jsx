@@ -3,8 +3,9 @@ import Header from "../components/Header";
 export default function ContactUs() {
   return (
     <>
-      <Header />
-      <p>This is Contact Us.</p>
+      <div className="bg-slate-900">
+        <Header />
+      </div>
     </>
   );
 }

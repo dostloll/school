@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 
-export default function About() {
+export default function Gallery() {
   return (
     <>
       <div className="bg-slate-900">

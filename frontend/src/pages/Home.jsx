@@ -1,10 +1,11 @@
 import Header from "../components/Header";
 
-export default function Home() {
+export default function Home(props) {
   return (
     <>
-      <Header />
-      <p>This is Home</p>
+      <div className="bg-slate-900">
+        <Header />
+      </div>
     </>
   );
 }
